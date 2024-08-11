@@ -1,0 +1,96 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(50, 2, 154);
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 130px;
+    width: 200px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.list-item {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+.form {
+    border-radius: 10px;
+    max-width: 600px;
+    background-color: rgb(233, 231, 228);
+    border: 2px solid rgb(168, 168, 168);
+    padding: 20px;
+    margin: 100px auto;
+    height: 360px;
+}
+.form-register{
+    border-radius: 10px;
+    max-width: 600px;
+    background-color: rgb(233, 231, 228);
+    border: 2px solid rgb(168, 168, 168);
+    padding: 20px;
+    margin: 100px auto;
+    height: 700px;
+}
+
+
+.input-details {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 20px 10px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.button button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(50, 2, 154);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button button:hover {
+    background-color: rgb(37, 3, 111);
+}
+

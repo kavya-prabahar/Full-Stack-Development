@@ -1,0 +1,115 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(50, 2, 154);
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 130px;
+    width: 200px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.list-item {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+.nav-right {
+    display: flex;
+}
+
+.login-button {
+    padding: 10px 20px;
+    margin: 20px;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(37, 3, 111);
+    border-radius: 20px;
+    border: 1px solid antiquewhite;
+    cursor: pointer;
+}
+
+.container{
+    padding: 20px 100px;
+}
+
+
+.product-item {
+    background-color: rgb(213, 215, 216);
+    border-radius: 20px;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid white;
+    width: calc(33% - 60px);
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    height: 380px;
+}
+
+
+.product-grid-1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cart-button{
+    background-color: rgb(1, 180, 1);
+    border-radius: 20px;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+
+}
+
+.product-image {
+    padding: 50px 20px 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.add-to-cart{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
