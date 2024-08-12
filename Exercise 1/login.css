@@ -39,7 +39,7 @@ body {
 
 .form {
     border-radius: 10px;
-    max-width: 600px;
+    max-width: 500px;
     background-color: rgb(233, 231, 228);
     border: 2px solid rgb(168, 168, 168);
     padding: 20px;
@@ -48,7 +48,7 @@ body {
 }
 .form-register{
     border-radius: 10px;
-    max-width: 600px;
+    max-width: 500px;
     background-color: rgb(233, 231, 228);
     border: 2px solid rgb(168, 168, 168);
     padding: 20px;
@@ -78,8 +78,14 @@ input {
     box-sizing: border-box;
 }
 
+.button {
+    display: flex;
+    justify-content: center;  
+    margin: 20px auto; 
+}
+
 .button button {
-    width: 100%;
+    width: 30%;
     padding: 10px;
     background-color: rgb(50, 2, 154);
     color: white;
@@ -88,9 +94,15 @@ input {
     cursor: pointer;
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
+
 
 .button button:hover {
     background-color: rgb(37, 3, 111);
 }
 
+a {
+    text-decoration : none;
+    color: white;
+}

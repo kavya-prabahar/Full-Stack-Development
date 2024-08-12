@@ -1,0 +1,111 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(50, 2, 154);
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 130px;
+    width: 200px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.list-item {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+.nav-right {
+    display: flex;
+}
+
+.cart {
+    border-radius: 10px;
+    max-width: 400px; 
+    background-color: #ffffff;
+    border: 1px solid rgb(168, 168, 168);
+    padding: 30px;
+    margin: 80px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product p, .cost p {
+    margin: 0;
+}
+
+.product {
+    text-align: left; 
+}
+
+.cost {
+    text-align: right;
+}
+
+.cart-details {
+    display: flex;
+    justify-content: space-between ;
+    margin: 3px 70px;
+    padding: 1px 10px;
+}
+
+#total-cost{
+    font-size: 20px;
+}
+
+.buy {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.buy button {
+    width: 30%;
+    padding: 12px 0;
+    background-color: rgb(15, 200, 49);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold ;
+}
+
+.buy button:hover {
+    background-color: rgb(37, 3, 111);
+    transform: scale(1.05);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #d3d3d3;
+}

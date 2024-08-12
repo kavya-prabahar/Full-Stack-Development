@@ -3,8 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="cart.css">
     <title>ShopIT</title>
+    <script src="scripts.js"></script>
 </head>
 
 <body>
@@ -19,22 +20,19 @@
         </div>
     </nav>
 
-    <div class="form">
-        <form class="user-details">
-            <div class="input-details">
-                <label for="username">Enter your Username:</label>
-                <input type="text" id="username" class="user-input-data">
+    <div class="cart">
+        <div class = "cart-details">
+            <div class="product"><p></p></div>
+            <div class="cost"><p></p></div>
+        </div>
+        <div class = "cart-details">
+            <div class="total-cost"><p id = "total-cost"></p></div> 
+        </div>
+            <div class="buy">
+                <button type="submit">Buy Now</button>
             </div>
-
-            <div class="input-details">
-                <label for="password">Enter your Password:</label>
-                <input type="password" id="password" class="user-input-data">
-            </div>
-
-            <div class="button">
-                <button type="button"><b>LOGIN</b></button>
-            </div>
-        </form>
+        
     </div>
+    
 </body>
 </html>
