@@ -1,25 +1,14 @@
-const express = require("express");
 const bodyParser = require("body-parser");
-
+const express = require("express");
 const app = express();
 const port = 5000;
 
-const data={
-    "name": "Kavya P",
-    "roll_number" : "22BAD049",
-    "age": 19,
-    "date_of_birth": "May 01 2005"
-}
+app.set("view engine", "ejs");
 
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static("static"));
+app.use(bodyParser.urlencoded({extended:true}));
+app.use(express.static('static'));
 
-app.get("/", (req, res) => {
-  res.render("data.ejs",{
-    data:data 
-  });
-});
-
-app.listen(port, () => {
-  console.log("server is started...");
+app.get("/",(req,res)=>{res.render("forms.ejs")});
+app.listen(port,() => {
+console.log("server is started ...");
 });
