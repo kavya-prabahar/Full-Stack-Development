@@ -1,4 +1,9 @@
 
+if (!sessionStorage.getItem('sessionStarted')) {
+    localStorage.removeItem('cart');
+    sessionStorage.setItem('sessionStarted', 'true');
+}
+
 let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
 function addToCart(productName, productPrice) {
@@ -7,6 +12,7 @@ function addToCart(productName, productPrice) {
     localStorage.setItem('cart', JSON.stringify(cart));
 
     alert(`${productName} added to cart!`);
+    displayCartItems(); 
 }
 
 function displayCartItems() {
@@ -15,6 +21,9 @@ function displayCartItems() {
     const costDiv = document.querySelector('.cost p');
     let totalCost = 0;
 
+    productDiv.innerHTML = '';
+    costDiv.innerHTML = ''; 
+    
     cartItems.forEach(item => {
         productDiv.innerHTML += `${item.name}<br>`;
         costDiv.innerHTML += `$${item.price}<br>`;
