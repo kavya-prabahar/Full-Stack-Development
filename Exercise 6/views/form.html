@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marks Input</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Enter Marks for 5 Subjects</h1>
+        <form action="/calculate" method="POST">
+            <label for="subject1">Subject 1:</label>
+            <input type="number" name="subject1" required><br><br>
+
+            <label for="subject2">Subject 2:</label>
+            <input type="number" name="subject2" required><br><br>
+
+            <label for="subject3">Subject 3:</label>
+            <input type="number" name="subject3" required><br><br>
+
+            <label for="subject4">Subject 4:</label>
+            <input type="number" name="subject4" required><br><br>
+
+            <label for="subject5">Subject 5:</label>
+            <input type="number" name="subject5" required><br><br>
+
+            <input type="submit" value="Calculate Total and Average">
+        </form>
+    </div>
+</body>
+</html>
